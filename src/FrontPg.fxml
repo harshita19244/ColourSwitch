@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FrontPgController" fx:id="FrontPg">
+<children>
+    <ImageView fitHeight="257.0" fitWidth="308.0" layoutX="135.0" layoutY="228.0">
+        <image>
+            <Image url="@../assets/Spin.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="141.0" fitWidth="286.0" layoutX="157.0" layoutY="43.0">
+        <image>
+            <Image url="@../assets/logo.png" />
+        </image>
+    </ImageView>
+    <Button layoutX="125.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#openNewGame" prefHeight="29.0" prefWidth="156.0" style="-fx-background-color: #4C6FF7;" text="NEW GAME" textFill="white">
+        <font>
+            <Font name="Verdana Bold" size="15.0" />
+        </font>
+    </Button>
+    <Button layoutX="342.0" layoutY="540.0" mnemonicParsing="false" onMouseClicked="#loadGame" prefHeight="29.0" prefWidth="156.0" style="-fx-background-color: #4C6FF7;" text="LOAD GAME" textAlignment="CENTER" textFill="white">
+        <font>
+            <Font name="Verdana Bold" size="15.0" />
+        </font>
+    </Button>
+    <Button layoutX="125.0" layoutY="594.0" mnemonicParsing="false" onMouseClicked="#howToPlay" prefHeight="29.0" prefWidth="156.0" style="-fx-background-color: #4C6FF7;" text="HOW TO PLAY" textFill="white">
+        <font>
+            <Font name="Verdana Bold" size="15.0" />
+        </font>
+    </Button>
+    <Button layoutX="342.0" layoutY="594.0" mnemonicParsing="false" onMouseClicked="#exitMain" prefHeight="29.0" prefWidth="156.0" style="-fx-background-color: #4C6FF7;" text="EXIT" textAlignment="CENTER" textFill="white">
+        <font>
+            <Font name="Verdana Bold" size="15.0" />
+        </font>
+    </Button>
+    <ImageView fitHeight="30" fitWidth="30" layoutX="95.0" layoutY="543.0" preserveRatio="true" blendMode="HARD_LIGHT">
+        <image>
+            <Image url="@../assets/Star.JPG" />
+        </image>
+    </ImageView>
+      <ImageView fitHeight="30" fitWidth="30" layoutX="95.0" layoutY="597.0" preserveRatio="true" blendMode="HARD_LIGHT">
+         <image>
+            <Image url="@../assets/Star.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30" fitWidth="30" layoutX="498.0" layoutY="543.0" preserveRatio="true" blendMode="HARD_LIGHT">
+         <image>
+            <Image url="@../assets/Star.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30" fitWidth="30" layoutX="498.0" layoutY="597.0" preserveRatio="true" blendMode="HARD_LIGHT">
+         <image>
+            <Image url="@../assets/Star.JPG" />
+         </image>
+      </ImageView>
+</children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="NewGamePg" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewGamePgController">
+<children>
+    <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#goToMainMenu" pickOnBounds="true" preserveRatio="true" x="20" y="20">
+        <Image url="@../assets/homebutton.png" />
+    </ImageView>
+    <ImageView fitHeight="141.0" fitWidth="286.0" layoutX="157.0" layoutY="43.0">
+        <image>
+            <Image url="@../assets/logo.png" />
+        </image>
+    </ImageView>
+      <TextField fx:id="textfield" layoutX="148.0" layoutY="505.0" onAction="#getText" prefHeight="37.0" prefWidth="304.0" promptText="Enter Valid Name Here">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font></TextField>
+      <Label layoutX="174.0" layoutY="458.0" prefHeight="19.0" prefWidth="252.0" text="Enter a name for your Game:" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="289.0" prefHeight="30.0" prefWidth="233.0" style="-fx-border-color: white;" text=" LET'S OPEN A NEW GAME!" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="236.0" layoutY="622.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: white;" text="Play Game" textFill="#f7f5f5" onMouseClicked="#playGameDemo">
+         <font>
+            <Font name="Verdana Bold" size="14.0" />
+         </font>
+      </Button>
+
+</children>
+</AnchorPane>
