@@ -50,19 +50,6 @@ public class GameOverController {
         x.show();
     }
 
-    @FXML
-    void ResumeYes() throws IOException {
-        AnchorPane root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        Stage x=new Stage();
-        x.setTitle("Resume game");
-        x.setScene(new Scene(root, 300, 200));
-        x.show();
-    }
-
-    @FXML
-    void ResumeNo() throws IOException{
-
-    }
 
     @FXML
     void leaderboard() throws IOException{
