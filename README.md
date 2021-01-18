@@ -1,5 +1,7 @@
 # Colour Switch
 
+
+
 ## Details:
 Created by Harshita Srinivas and Aditi Sejal
 
@@ -31,5 +33,5 @@ Uses Java and JavaFx.
 1. Path to code:```ColourSwitch/src/assests```
 
 ## Screenshots from the Game:
-<img src="Screenshots/finalstart.png" width="400" height="470" style="margin-right: 5px;"/>   <img src="Screenshots/final shop.png" width="400" height="470" />
-<img src="Screenshots/finalgameplay.png" width="400" height="470" />   <img src="Screenshots/finalend.png" width="400" height="470" />
+<img src="Screenshots/finalstart.png" width="400" height="500" style="margin-right: 5px;"/>   <img src="Screenshots/final shop.png" width="400" height="500" />
+<img src="Screenshots/finalgameplay.png" width="400" height="500" />   <img src="Screenshots/finalend.png" width="400" height="500" />
