@@ -1,6 +1,6 @@
 # ColourSwitch
 
-##Details:
+## Details:
 Created by Harshita Srinivas and Aditi Sejal
 
 This is a clone of the strategy video game, Colour Switch
@@ -27,7 +27,7 @@ Rocket and Clover: Upgrades for score boost
 3. Facade
 
 ## Code and assets:
-Path to images: ```ColourSwitch/src/```
-Path to code:```ColourSwitch/src/assests```
+1.Path to images: ```ColourSwitch/src/```
+2.Path to code:```ColourSwitch/src/assests```
 
 ##Screenshots from the Game:
