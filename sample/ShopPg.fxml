@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="ShopPg" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ShopPgController">
+    <ImageView fitHeight="166.0" fitWidth="374.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true" x="100">
+        <Image url="@../assets/logo.png" />
+    </ImageView>
+    <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#goToMainMenu" pickOnBounds="true" preserveRatio="true" x="20" y="20">
+        <Image url="@../assets/homebutton.png" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="127.0" fitWidth="258.0" layoutX="55.0" layoutY="46.0" nodeOrientation="INHERIT" opacity="0.84" pickOnBounds="true" preserveRatio="true" x="100" y="120">
+        <Image url="@../assets/shop (3).jpg" />
+    </ImageView>
+    <ImageView fitHeight="120.0" fitWidth="120.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" y="300">
+        <Image url="@../assets/fireball.gif" />
+    </ImageView>
+    <ImageView fitHeight="70.0" fitWidth="64.0" layoutX="370.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" y="250">
+        <Image url="@../assets/clover.png" />
+    </ImageView>
+    <ImageView fitHeight="120.0" fitWidth="65.0" layoutX="371.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" y="250">
+        <Image url="@../assets/rocket.png" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" y="415">
+        <Image url="@../assets/Star.png" />
+    </ImageView>
+    <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="5.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" x="180" y="300">
+        <Image url="@../assets/iceball.gif" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" x="180" y="415">
+        <Image url="@../assets/Star.png" />
+    </ImageView>
+    <ImageView fitHeight="190.0" fitWidth="200.0" layoutX="-40.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" y="540">
+        <Image url="@../assets/pink.gif" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" x="180" y="520">
+        <Image url="@../assets/green.gif" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" x="180" y="650">
+        <Image url="@../assets/Star.png" />
+    </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" y="650">
+        <Image url="@../assets/Star.png" />
+    </ImageView>
+    <Label layoutX="232.0" layoutY="660.0" text="12" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana Bold" size="12.0" />
+        </font>
+    </Label>
+   <Label layoutX="232.0" layoutY="460.0" text="15" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="52.0" layoutY="460.0" text="20" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="52.0" layoutY="660.0" text="23" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+    <Label layoutX="65.0" layoutY="310.0" text="Select a superBall!" textFill="#e8e5e5">
+      <font>
+         <Font name="Verdana Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="375.0" layoutY="310.0" text="Select an Add-on!" textFill="#e8e5e5">
+      <font>
+         <Font name="Verdana Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="385.0" layoutY="456.0" text="20" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" layoutX="150.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" x="180" y="350">
+      <image>
+         <Image url="@../assets/Star.png" />
+      </image>
+   </ImageView>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="45.0" fitWidth="45.0" layoutX="150.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" x="180" y="350">
+      <image>
+         <Image url="@../assets/Star.png" />
+      </image>
+   </ImageView>
+   <Label layoutX="385.0" layoutY="659.0" text="30" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+    <Label layoutX="487.0" layoutY="390.0" text="CLOVER" textFill="#eae2e2">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="451.0" layoutY="410.0" text="3x Score Multiplier" textFill="#eae2e2">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="486.0" layoutY="560.0" text="ROCKET" textFill="#eae2e2">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="450.0" layoutY="585.0" text="8x Score Multiplier" textFill="#eae2e2">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+</AnchorPane>

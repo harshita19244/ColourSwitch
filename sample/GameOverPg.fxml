@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="GameOver" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameOverPgController">
+    <ImageView fitHeight="250.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" x="100">
+        <Image url="@../assets/logo.png" />
+      <effect>
+         <Glow />
+      </effect>
+    </ImageView>
+    <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#goToMainMenu" pickOnBounds="true" preserveRatio="true" x="20" y="20">
+     <Image url="@../assets/homebutton.png" />
+    </ImageView>
+    <ImageView fitHeight="36.0" fitWidth="600.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" x="130" y="220">
+        <Image url="@../assets/score.jpg" />
+      <effect>
+         <Glow />
+      </effect>
+    </ImageView>
+    <Label fx:id="ScoreLabel" layoutX="270" layoutY="280" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana Bold" size="30.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="36.0" fitWidth="432.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" x="110" y="345">
+        <Image url="@../assets/bestscore.jpg" />
+      <effect>
+         <Glow />
+      </effect>
+    </ImageView>
+    <Label fx:id="BestLabel" layoutX="270" layoutY="400" text="37" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana Bold" size="30.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="100.0" fitWidth="101.0" onMouseClicked="#reloadGame" pickOnBounds="true" preserveRatio="true" x="240" y="500">
+        <Image url="@../assets/replay.png" />
+    </ImageView>
+    <ImageView fitHeight="100.0" fitWidth="440.0" layoutX="-15.0" pickOnBounds="true" preserveRatio="true" x="40" y="400" >
+        <Image url="@../assets/stars (1).png" />
+    </ImageView>
+    <Label fx:id="StarLabel" layoutX="70.0" layoutY="493.0" prefHeight="36.0" prefWidth="59.0" text="56" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana Bold" size="24.0" />
+        </font>
+    </Label>
+    <Button blendMode="HARD_LIGHT" layoutX="210" layoutY="450" onMouseClicked="#useStars" prefHeight="50.0" prefWidth="158.0" style="-fx-background-color: black; -fx-border-color: white;" text="Resume Game" textFill="#FDFEFE">
+        <font>
+            <Font name="Verdana" size="17.0" />
+        </font>
+    </Button>
+    <Label layoutX="434" layoutY="420" text="Live Demo" textFill="bisque">
+        <font>
+            <Font name="Verdana" size="15.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="150.0" fitWidth="440.0" onMouseClicked="#demo" pickOnBounds="true" preserveRatio="true" x="400" y="400">
+        <Image url="@../assets/vid.png" />
+    </ImageView>
+    <ImageView fitHeight="100.0" fitWidth="440.0" layoutX="-3.0" onMouseClicked="#leaderboard" pickOnBounds="true" preserveRatio="true" x="120" y="600">
+        <Image url="@../assets/endmenu.png" />
+    </ImageView>
+</AnchorPane>

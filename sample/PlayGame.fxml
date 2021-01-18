@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="PlayGamePg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayGameController">
+<children>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="60.0" fitWidth="60.0" layoutX="530.0" layoutY="15.0"
+               onMouseClicked="#pauseGame" preserveRatio="true">
+        <Image url="@../assets/paused.jpg"/>
+    </ImageView>
+    <Label fx:id="ScoreLabel" layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="90.0" text="0" textFill="WHITE">
+        <font>
+            <Font name="Verdana Bold" size="25.0" />
+        </font>
+    </Label>
+</children>
+</AnchorPane>
