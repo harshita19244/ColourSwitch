@@ -14,7 +14,7 @@ Uses Java and JavaFx.
 ## Features:
 1. Game :video_game: progresses in infite display with increasing difficulty
 1. In-Game upgrades available (Clover and Rocket) that boosts score on gameplay
-1. Implementation of Bonus Shop feature to buy upgrades and costum balls
+1. Implementation of Bonus Shop feature to buy upgrades and custom balls
 1. In game assets:
   1. Obstacles Available :red_circle:: Cross, Line, Triangle, Circle and Rectangle
   1. Balls Available :softball:: Normal Ball, Ice Ball, Fire ball, Pink Ball, Green-light Ball
