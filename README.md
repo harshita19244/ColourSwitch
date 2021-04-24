@@ -12,16 +12,16 @@ Made as a part of project in Advanced Programming course at IIIT-Delhi.
 Uses Java and JavaFx.
 
 ## Features:
-1. Game :video_game: progresses in infite display with increasing difficulty
-1. In-Game upgrades available (Clover and Rocket) that boosts score on gameplay
-1. Implementation of Bonus Shop feature to buy upgrades and custom balls
-1. In game assets:
+⭐️ Game :video_game: progresses in infite display with increasing difficulty </br>
+⭐️ In-Game upgrades available (Clover and Rocket) that boosts score on gameplay </br>
+⭐️ Implementation of Bonus Shop feature to buy upgrades and custom balls </br>
+⭐️ In game assets: </br>
   1. Obstacles Available :red_circle:: Cross, Line, Triangle, Circle and Rectangle
   1. Balls Available :softball:: Normal Ball, Ice Ball, Fire ball, Pink Ball, Green-light Ball
   1. How To Play :page_facing_up:: Displays details of Game Play
-  1. Rocket and Clover :four_leaf_clover:: Upgrades for score boost
-1. Save Game and Restart Game options: User can save multiple game states, and reload them.
-1. Background Music :speaker: for cooler interactions
+  1. Rocket and Clover :four_leaf_clover:: Upgrades for score boost </br>
+⭐️ Save Game and Restart Game options: User can save multiple game states, and reload them. </br>
+⭐️ Background Music :speaker: for cooler interactions </br>
 
 ## Design Patterns:
 1. Singleton
@@ -31,6 +31,11 @@ Uses Java and JavaFx.
 ## Code and assets:
 1. Path to images: ```ColourSwitch/src/```
 1. Path to code:```ColourSwitch/src/assests```
+
+## How to Run
+1. Clone the repository
+2. Install the Java-Fx SDK
+3. Run the entire project in a Java Environment and you are good to go!
 
 ## Screenshots from the Game:
 <img src="Screenshots/finalstart.png" width="400" height="500" style="margin-right: 5px;"/>   
