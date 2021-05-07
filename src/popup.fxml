@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="popup" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameOverController" style="-fx-background-color: black;">
+    <Label text="Would you like to use 10 stars to resume?" layoutY="30" layoutX="27" textFill="bisque">
+        <font>
+            <Font name="Comic Sans Ms" size="13.5" />
+        </font>
+    </Label>
+    <Button text="Yes" layoutY="90" layoutX="100" fx:id="yesbutton" minWidth="20" minHeight="20" textFill="black">
+        <font>
+            <Font name="Comic Sans Ms" size="10.0" />
+        </font>
+    </Button>
+    <Button text="No" layoutY="90" layoutX="170" fx:id="nobutton" onMouseClicked="#ResumeNo" minWidth="20" minHeight="20" textFill="black">
+        <font>
+            <Font name="Comic Sans Ms" size="10.0" />
+        </font>
+    </Button>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1"
+            fx:controller="sample.GameOverController" xmlns:fx="http://javafx.com/fxml/1">
+    <Label layoutX="155" text="How To Play" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1" layoutY="10">
+        <font>
+            <Font name="Verdana" size="50.0" />
+        </font>
+    </Label>
+    <ImageView blendMode="HARD_LIGHT" fitHeight="280.0" fitWidth="190.0" layoutX="215.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@rotate.gif" />
+    </ImageView>
+    <Label layoutX="60" layoutY="300" text="1. Tap. Tap. Tap to get the ball past each obstacle." textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="60" layoutY="340" text="2. Follow the colour pattern to cross each obstacle." textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="60" layoutY="380" text="3. Timings and Patience are the key to victory." textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="60" layoutY="420" text="4. Earn stars to unlock new features." textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="60" layoutY="460" text="5. Beat High Scores in the Endless mode." textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <font>
+            <Font name="Verdana" size="20.0" />
+        </font>
+    </Label>
+    <ImageView  fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" x="20" y="20">
+        <Image url="@../assets/homebutton.png" />
+    </ImageView>
+
+</AnchorPane>
