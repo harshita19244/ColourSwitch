@@ -1,7 +1,6 @@
 # Colour Switch
 
 
-
 ## Details:
 Created by Harshita Srinivas and Aditi Sejal
 
@@ -23,14 +22,22 @@ Uses Java and JavaFx.
   1. Save Game and Restart Game options: User can save multiple game states, and reload them. 
   1. Background Music :speaker: for cooler interactions 
 
+## Implementation:
+1. The implementation of the user interface was achieved using FXML and CSS for further UI improvements. 
+2. The implementation of the project follows a strict object-oriented paradigm in addition to generic programming with well-defined classes for each component of the gameplay.
+3. The gameplay additionally uses the functionality of event-driven programming using JavaFX to create an infinite gameplay setting, various obstacles and transitions for all moving objects. 
+4. It also utilizes threads and timers for parallel execution of multiple features such as moving the ball, incrementing the high and checking collisions with other game components. 
+5. It takes into account various design patterns of software development.
+Additionally, serialization has been implemented to store the progress during a particular setting of the game.  
+
 ## Design Patterns:
 1. Singleton
 2. Iterator
 3. Facade
 
 ## Code and assets:
-1. Path to images: ```ColourSwitch/src/```
-1. Path to code:```ColourSwitch/src/assests```
+1. Path to images: ```ColourSwitch/assets```
+1. Path to code:```ColourSwitch/sample```
 
 ## How to Run
 1. Clone the repository
