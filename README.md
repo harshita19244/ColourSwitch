@@ -38,6 +38,7 @@ Additionally, serialization has been implemented to store the progress during a 
 ## Code and assets:
 1. Path to images: ```ColourSwitch/assets```
 1. Path to code:```ColourSwitch/sample```
+1. Path to Delivarables: ```src/2019244_2019228.pdf```
 
 ## How to Run
 1. Clone the repository
